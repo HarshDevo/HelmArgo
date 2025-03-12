@@ -1,0 +1,12 @@
+wordpress:
+  image: wordpress:latest
+  storage: 1Gi
+
+mysql:
+  image: mysql:8
+  storage: 1Gi
+  database: wordpress
+  user: wpuser
+  password: wppassword
+  rootPassword: rootpassword
+
