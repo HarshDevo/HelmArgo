@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://github.com/your-username/wordpress-helm-repo.git
+    repoURL: https://github.com/HarshDevo/HelmArgo.git
     targetRevision: HEAD
     path: wordpress-chart
     helm:
